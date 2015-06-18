@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  get '/popatropalis' => 'pages#popatropalis'
+  get '/news' => 'pages#news'
+  get '/limitbreaking' => 'pages#limitbreaking'
+  get '/donate' => 'pages#donate'
+  get '/befuddling' => 'pages#befuddling'
+  get '/allthatsleft' => 'pages#allthatsleft'
+  get '/academy' => 'pages#academy'
+  get '/beacon' => 'pages#beacon'
+  get '/about' => 'pages#about'
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
