@@ -8,14 +8,22 @@ body {
   background-color:black; 
 }
 
-p {
-  color: white;
-}
-
-h1 {
+p.atl {
   color:white;
+  font-size: 20px;
 }
 
 img {
   max-width:100%
+}
+
+h2.atl-heading{
+  color: #A00000;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+}
+
+body.home {
+  background: url(https://s3-us-west-2.amazonaws.com/neversungames/all+thats+left+logo.jpg) no-repeat center center fixed;
+  max-width:100%;
 }
